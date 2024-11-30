@@ -1,5 +1,5 @@
 import "dotenv/config";
-import adapter from "@sveltejs/adapter-static";
+import adapter from "@sveltejs/adapter-node";
 
 import { mdsvex } from "mdsvex";
 import { fileURLToPath } from "node:url";
